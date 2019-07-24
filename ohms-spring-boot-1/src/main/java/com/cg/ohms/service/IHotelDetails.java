@@ -1,10 +1,14 @@
 package com.cg.ohms.service;
 
+import java.util.List;
+
 import com.cg.ohms.dto.HotelDetailsDTO;
 import com.cg.ohms.exceptions.HotelException;
 import com.cg.ohms.exceptions.HotelExceptionController;
 
 public interface IHotelDetails {
+	
+	public List<Object[]> acRooms() throws HotelException;
 	/**
 	 * 
 	 * @param hotelDetailsDTO

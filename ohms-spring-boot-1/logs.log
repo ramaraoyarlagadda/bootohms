@@ -1,0 +1,799 @@
+2019-07-24 08:48:49.564  WARN 9328 --- [HikariPool-13 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=6h36m18s672ms204µs816ns).
+2019-07-24 08:50:44.914  WARN 9328 --- [http-nio-8086-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: roomid of: com.cg.ohms.dto.RoomDetailsDTO [ SELECT h.hotelName,r.roomid FROM com.cg.ohms.dto.HotelDetailsDTO h, com.cg.ohms.dto.RoomDetailsDTO r ]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: roomid of: com.cg.ohms.dto.RoomDetailsDTO [ SELECT h.hotelName,r.roomid FROM com.cg.ohms.dto.HotelDetailsDTO h, com.cg.ohms.dto.RoomDetailsDTO r ]]
+2019-07-24 08:55:17.556  WARN 9328 --- [http-nio-8086-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: roomid of: com.cg.ohms.dto.RoomDetailsDTO [ SELECT h.hotelName,r.roomid FROM com.cg.ohms.dto.HotelDetailsDTO h, com.cg.ohms.dto.RoomDetailsDTO r ]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: roomid of: com.cg.ohms.dto.RoomDetailsDTO [ SELECT h.hotelName,r.roomid FROM com.cg.ohms.dto.HotelDetailsDTO h, com.cg.ohms.dto.RoomDetailsDTO r ]]
+2019-07-24 08:55:27.682  WARN 9328 --- [http-nio-8086-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: roomid of: com.cg.ohms.dto.RoomDetailsDTO [ SELECT h.hotelName,r.roomid FROM com.cg.ohms.dto.HotelDetailsDTO h, com.cg.ohms.dto.RoomDetailsDTO r ]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: roomid of: com.cg.ohms.dto.RoomDetailsDTO [ SELECT h.hotelName,r.roomid FROM com.cg.ohms.dto.HotelDetailsDTO h, com.cg.ohms.dto.RoomDetailsDTO r ]]
+2019-07-24 14:01:59.512  INFO 9328 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-24 14:01:59.512  INFO 9328 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-24 14:01:59.512  INFO 9328 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-24 14:02:01.466  INFO 9328 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-24 14:02:01.496  INFO 9328 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-24 14:02:01.717  INFO 9328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:02:01.816  INFO 9328 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:02:30.196  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:02:30.198  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:02:30.255  INFO 6556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-24 14:02:30.256  INFO 6556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-24 14:02:31.149  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:02:31.172  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-07-24 14:02:31.445  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:02:31.911  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:02:31.935  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:02:31.936  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:02:32.201  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:02:32.203  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:02:32.204  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1948 ms
+2019-07-24 14:02:32.335  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-24 14:02:32.410  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:02:32.413  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-24 14:02:32.451  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:02:32.493  INFO 6556 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-24 14:02:32.494  INFO 6556 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-24 14:02:33.089  INFO 6556 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-24 14:02:33.474  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:02:34.177  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:02:34.178  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:02:34.179  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:02:34.182  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:02:35.186  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:02:36.191  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:02:36.269  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:02:36.475  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:02:36.690  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:02:36.695  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 6.92 seconds (JVM running for 10.096)
+2019-07-24 14:03:08.457  INFO 6556 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:03:08.458  INFO 6556 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:03:08.595  INFO 6556 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 136 ms
+2019-07-24 14:03:09.903  INFO 6556 --- [http-nio-8086-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 14:03:11.046  WARN 6556 --- [http-nio-8086-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: roomid of: com.cg.ohms.dto.RoomDetailsDTO [ SELECT h.hotelName,r.roomid FROM com.cg.ohms.dto.HotelDetailsDTO h, com.cg.ohms.dto.RoomDetailsDTO r ]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: roomid of: com.cg.ohms.dto.RoomDetailsDTO [ SELECT h.hotelName,r.roomid FROM com.cg.ohms.dto.HotelDetailsDTO h, com.cg.ohms.dto.RoomDetailsDTO r ]]
+2019-07-24 14:06:41.897  INFO 6556 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:06:41.898  INFO 6556 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:06:41.902  INFO 6556 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-24 14:06:42.286  INFO 6556 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-24 14:06:42.634  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:06:42.634  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:06:42.841  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:06:42.845  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-24 14:06:42.894  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:06:43.031  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:06:43.033  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:06:43.033  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:06:43.093  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:06:43.094  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:06:43.094  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 458 ms
+2019-07-24 14:06:43.140  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-07-24 14:06:43.165  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:06:43.166  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-07-24 14:06:43.174  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:06:43.186  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:06:43.200  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:06:43.201  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:06:43.201  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:06:43.201  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:06:43.245  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:06:43.353  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:06:43.361  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:06:43.460  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:06:43.488  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:06:43.489  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.885 seconds (JVM running for 256.863)
+2019-07-24 14:06:43.494  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:09:54.987  INFO 6556 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:09:54.989  INFO 6556 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:09:54.996  INFO 6556 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-07-24 14:09:55.011  INFO 6556 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-07-24 14:09:55.210  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:09:55.211  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:09:55.620  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:09:55.644  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-07-24 14:09:55.707  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:09:55.923  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:09:55.925  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:09:55.926  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:09:56.008  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:09:56.009  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:09:56.009  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 797 ms
+2019-07-24 14:09:56.090  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-07-24 14:09:56.133  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:09:56.134  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-07-24 14:09:56.151  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:09:56.164  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:09:56.179  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:09:56.180  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:09:56.180  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:09:56.180  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:09:56.233  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:09:56.355  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:09:56.364  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:09:56.485  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:09:56.514  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:09:56.515  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 1.328 seconds (JVM running for 449.868)
+2019-07-24 14:09:56.518  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:10:07.125  INFO 6556 --- [http-nio-8086-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:10:07.125  INFO 6556 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:10:07.130  INFO 6556 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-07-24 14:10:07.136  INFO 6556 --- [http-nio-8086-exec-7] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 14:10:07.512 ERROR 6556 --- [http-nio-8086-exec-7] o.h.hql.internal.ast.ErrorTracker        :  could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO
+2019-07-24 14:10:07.559 ERROR 6556 --- [http-nio-8086-exec-7] o.h.hql.internal.ast.ErrorTracker        :  could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO
+
+antlr.SemanticException: could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.handleWithFragment(HqlSqlWalker.java:521) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createEntityJoin(HqlSqlWalker.java:487) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromJoinElement(HqlSqlWalker.java:387) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.joinElement(HqlSqlBaseWalker.java:3920) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3706) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3584) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:720) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:576) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:313) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:261) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:271) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:191) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:745) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_131]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350) [spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy111.createQuery(Unknown Source) [na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_131]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308) [spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy111.createQuery(Unknown Source) [na:na]
+	at com.cg.ohms.dao.HotelDetailsDaoImpl.checkAcRooms(HotelDetailsDaoImpl.java:25) [classes/:na]
+	at com.cg.ohms.dao.HotelDetailsDaoImpl$$FastClassBySpringCGLIB$$f594fbb6.invoke(<generated>) [classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.cg.ohms.dao.HotelDetailsDaoImpl$$EnhancerBySpringCGLIB$$f562a660.checkAcRooms(<generated>) ~[classes/:na]
+	at com.cg.ohms.service.impl.HotelDetailsServiceImpl.acRooms(HotelDetailsServiceImpl.java:68) ~[classes/:na]
+	at com.cg.ohms.controller.HotelController.acRoomDetails(HotelController.java:39) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_131]
+
+2019-07-24 14:10:07.693  WARN 6556 --- [http-nio-8086-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.hql.internal.ast.QuerySyntaxException: could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO [select h.hotelName from com.cg.ohms.dto.HotelDetailsDTO h join com.cg.ohms.dto.RoomDetailsDTO r on h.hotelId=r.hotelId where r.roomType='acroom' group by h.hotelName]; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO [select h.hotelName from com.cg.ohms.dto.HotelDetailsDTO h join com.cg.ohms.dto.RoomDetailsDTO r on h.hotelId=r.hotelId where r.roomType='acroom' group by h.hotelName]]
+2019-07-24 14:16:08.963  INFO 6556 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:16:08.965  INFO 6556 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:16:08.967  INFO 6556 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-07-24 14:16:08.991  INFO 6556 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-07-24 14:16:09.274  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:16:09.274  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:16:09.500  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:16:09.503  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-24 14:16:09.539  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:16:09.650  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:16:09.651  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:16:09.651  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:16:09.690  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:16:09.690  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:16:09.690  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 413 ms
+2019-07-24 14:16:09.734  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-07-24 14:16:09.755  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:16:09.756  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-07-24 14:16:09.762  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:16:09.771  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:16:09.781  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:16:09.781  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:16:09.781  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:16:09.782  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:16:09.820  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:16:09.920  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:16:09.929  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:16:10.026  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:16:10.052  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:16:10.052  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.81 seconds (JVM running for 823.365)
+2019-07-24 14:16:10.055  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:16:11.469  INFO 6556 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:16:11.473  INFO 6556 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:16:11.474  INFO 6556 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-07-24 14:16:11.485  INFO 6556 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-07-24 14:16:11.729  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:16:11.729  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:16:11.881  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:16:11.885  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-24 14:16:11.923  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:16:12.051  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:16:12.052  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:16:12.052  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:16:12.095  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:16:12.096  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:16:12.096  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 365 ms
+2019-07-24 14:16:12.131  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-07-24 14:16:12.148  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-5 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:16:12.149  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-07-24 14:16:12.153  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:16:12.161  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:16:12.167  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:16:12.167  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:16:12.167  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:16:12.167  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:16:12.199  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:16:12.263  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:16:12.270  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:16:12.335  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:16:12.358  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:16:12.358  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.654 seconds (JVM running for 825.671)
+2019-07-24 14:16:12.360  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:16:15.282  INFO 6556 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:16:15.283  INFO 6556 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:16:15.287  INFO 6556 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-07-24 14:16:15.293  INFO 6556 --- [http-nio-8086-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 14:16:15.296 ERROR 6556 --- [http-nio-8086-exec-1] o.h.hql.internal.ast.ErrorTracker        :  could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO
+2019-07-24 14:16:15.297 ERROR 6556 --- [http-nio-8086-exec-1] o.h.hql.internal.ast.ErrorTracker        :  could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO
+
+antlr.SemanticException: could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.handleWithFragment(HqlSqlWalker.java:521) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createEntityJoin(HqlSqlWalker.java:487) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromJoinElement(HqlSqlWalker.java:387) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.joinElement(HqlSqlBaseWalker.java:3920) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3706) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3584) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:720) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:576) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:313) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:261) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:271) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:191) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:745) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) [hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_131]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350) [spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy117.createQuery(Unknown Source) [na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_131]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308) [spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy117.createQuery(Unknown Source) [na:na]
+	at com.cg.ohms.dao.HotelDetailsDaoImpl.checkAcRooms(HotelDetailsDaoImpl.java:25) [classes/:na]
+	at com.cg.ohms.dao.HotelDetailsDaoImpl$$FastClassBySpringCGLIB$$f594fbb6.invoke(<generated>) [classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.cg.ohms.dao.HotelDetailsDaoImpl$$EnhancerBySpringCGLIB$$f562a660.checkAcRooms(<generated>) ~[classes/:na]
+	at com.cg.ohms.service.impl.HotelDetailsServiceImpl.acRooms(HotelDetailsServiceImpl.java:68) ~[classes/:na]
+	at com.cg.ohms.controller.HotelController.acRoomDetails(HotelController.java:39) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_131]
+
+2019-07-24 14:16:15.301  WARN 6556 --- [http-nio-8086-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.hql.internal.ast.QuerySyntaxException: could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO [select h.hotelName from com.cg.ohms.dto.HotelDetailsDTO h join com.cg.ohms.dto.RoomDetailsDTO r on h.hotelId=r.hotelId where r.roomType='acroom' group by h.hotelName]; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: could not resolve property: hotelId of: com.cg.ohms.dto.RoomDetailsDTO [select h.hotelName from com.cg.ohms.dto.HotelDetailsDTO h join com.cg.ohms.dto.RoomDetailsDTO r on h.hotelId=r.hotelId where r.roomType='acroom' group by h.hotelName]]
+2019-07-24 14:19:18.375  INFO 6556 --- [Thread-36] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:19:18.376  INFO 6556 --- [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:19:18.380  INFO 6556 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2019-07-24 14:19:18.406  INFO 6556 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2019-07-24 14:19:18.606  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:19:18.606  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:19:18.744  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:19:18.747  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-24 14:19:18.773  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:19:18.877  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:19:18.878  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:19:18.879  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:19:18.915  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:19:18.916  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:19:18.916  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 308 ms
+2019-07-24 14:19:18.946  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2019-07-24 14:19:18.965  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-6 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:19:18.966  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2019-07-24 14:19:18.970  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:19:18.981  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:19:18.987  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:19:18.987  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:19:18.987  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:19:18.987  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:19:19.014  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:19:19.074  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:19:19.082  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:19:19.157  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:19:19.181  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:19:19.181  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.594 seconds (JVM running for 1012.474)
+2019-07-24 14:19:19.183  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:19:23.340  INFO 6556 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:19:23.341  INFO 6556 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:19:23.344  INFO 6556 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-07-24 14:19:23.350  INFO 6556 --- [http-nio-8086-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 14:19:23.542  WARN 6556 --- [http-nio-8086-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 936, SQLState: 42000
+2019-07-24 14:19:23.542 ERROR 6556 --- [http-nio-8086-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : ORA-00936: missing expression
+
+2019-07-24 14:19:23.570  WARN 6556 --- [http-nio-8086-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet]
+2019-07-24 14:21:17.231  INFO 6556 --- [Thread-44] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:21:17.233  INFO 6556 --- [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:21:17.235  INFO 6556 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2019-07-24 14:21:17.276  INFO 6556 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2019-07-24 14:21:17.475  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:21:17.475  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:21:17.609  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:21:17.612  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-24 14:21:17.638  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:21:17.741  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:21:17.742  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:21:17.742  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:21:17.777  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:21:17.778  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:21:17.778  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 302 ms
+2019-07-24 14:21:17.809  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2019-07-24 14:21:17.828  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-7 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:21:17.829  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2019-07-24 14:21:17.833  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:21:17.841  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:21:17.847  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:21:17.848  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:21:17.848  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:21:17.848  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:21:17.874  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:21:17.928  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:21:17.935  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:21:18.008  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:21:18.030  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:21:18.031  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.572 seconds (JVM running for 1131.31)
+2019-07-24 14:21:18.033  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:21:23.768  INFO 6556 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:21:23.773  INFO 6556 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:21:23.775  INFO 6556 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2019-07-24 14:21:23.781  INFO 6556 --- [http-nio-8086-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 14:21:23.788  WARN 6556 --- [http-nio-8086-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: Type specified for TypedQuery [com.cg.ohms.dto.RoomDetailsDTO] is incompatible with query return type [class java.lang.String]; nested exception is java.lang.IllegalArgumentException: Type specified for TypedQuery [com.cg.ohms.dto.RoomDetailsDTO] is incompatible with query return type [class java.lang.String]]
+2019-07-24 14:26:38.342  INFO 6556 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:26:38.344  INFO 6556 --- [Thread-52] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:26:38.345  INFO 6556 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2019-07-24 14:26:38.436  INFO 6556 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2019-07-24 14:26:38.599  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:26:38.599  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:26:38.732  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:26:38.735  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-07-24 14:26:38.764  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:26:38.869  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:26:38.870  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:26:38.870  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:26:38.906  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:26:38.906  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:26:38.907  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 307 ms
+2019-07-24 14:26:38.937  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2019-07-24 14:26:38.956  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-8 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:26:38.957  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2019-07-24 14:26:38.962  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:26:38.970  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:26:38.976  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:26:38.976  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:26:38.976  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:26:38.976  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:26:39.005  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:26:39.068  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:26:39.075  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:26:39.147  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:26:39.169  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:26:39.170  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.588 seconds (JVM running for 1452.415)
+2019-07-24 14:26:39.173  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:26:40.989  INFO 6556 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:26:40.992  INFO 6556 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:26:40.996  INFO 6556 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-07-24 14:26:41.003  INFO 6556 --- [http-nio-8086-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 14:26:41.022  WARN 6556 --- [http-nio-8086-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: Cannot create TypedQuery for query with more than one return using requested result type [com.cg.ohms.dto.RoomDetailsDTO]; nested exception is java.lang.IllegalArgumentException: Cannot create TypedQuery for query with more than one return using requested result type [com.cg.ohms.dto.RoomDetailsDTO]]
+2019-07-24 14:27:27.228  INFO 6556 --- [Thread-60] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:27:27.229  INFO 6556 --- [Thread-60] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:27:27.232  INFO 6556 --- [Thread-60] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2019-07-24 14:27:27.263  INFO 6556 --- [Thread-60] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2019-07-24 14:27:27.506  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:27:27.506  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:27:27.646  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:27:27.649  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-24 14:27:27.678  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:27:27.785  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:27:27.785  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:27:27.786  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:27:27.820  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:27:27.820  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:27:27.821  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 313 ms
+2019-07-24 14:27:27.850  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2019-07-24 14:27:27.869  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-9 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:27:27.870  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2019-07-24 14:27:27.874  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:27:27.882  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:27:27.888  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:27:27.889  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:27:27.889  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:27:27.889  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:27:27.918  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:27:28.004  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:27:28.009  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:27:28.089  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:27:28.126  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:27:28.127  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.637 seconds (JVM running for 1501.366)
+2019-07-24 14:27:28.130  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:27:28.501  INFO 6556 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:27:28.502  INFO 6556 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:27:28.505  INFO 6556 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2019-07-24 14:27:28.511  INFO 6556 --- [http-nio-8086-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 14:29:03.863  INFO 6556 --- [Thread-68] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:29:03.864  INFO 6556 --- [Thread-68] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:29:03.866  INFO 6556 --- [Thread-68] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2019-07-24 14:29:03.894  INFO 6556 --- [Thread-68] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2019-07-24 14:29:04.070  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:29:04.070  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:29:04.206  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:29:04.209  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-24 14:29:04.235  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:29:04.344  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:29:04.345  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:29:04.345  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:29:04.380  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:29:04.381  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:29:04.381  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 309 ms
+2019-07-24 14:29:04.410  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2019-07-24 14:29:04.429  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-10 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:29:04.430  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2019-07-24 14:29:04.434  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:29:04.441  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:29:04.447  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:29:04.447  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:29:04.447  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:29:04.447  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:29:04.474  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:29:04.529  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:29:04.535  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:29:04.592  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:29:04.613  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:29:04.615  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.566 seconds (JVM running for 1597.844)
+2019-07-24 14:29:04.617  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:29:29.344  INFO 6556 --- [Thread-76] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:29:29.346  INFO 6556 --- [Thread-76] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:29:29.346  INFO 6556 --- [Thread-76] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2019-07-24 14:29:29.360  INFO 6556 --- [Thread-76] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2019-07-24 14:29:29.537  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:29:29.537  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:29:29.667  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:29:29.670  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-24 14:29:29.697  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:29:29.807  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:29:29.808  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:29:29.808  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:29:29.844  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:29:29.845  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:29:29.845  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 307 ms
+2019-07-24 14:29:29.876  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2019-07-24 14:29:29.894  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-11 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:29:29.895  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2019-07-24 14:29:29.900  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:29:29.908  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:29:29.914  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:29:29.915  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:29:29.915  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:29:29.915  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:29:29.942  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:29:30.011  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:29:30.018  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:29:30.079  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:29:30.099  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:29:30.099  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.577 seconds (JVM running for 1623.326)
+2019-07-24 14:29:30.101  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:29:40.620  INFO 6556 --- [Thread-83] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:29:40.622  INFO 6556 --- [Thread-83] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:29:40.624  INFO 6556 --- [Thread-83] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2019-07-24 14:29:40.655  INFO 6556 --- [Thread-83] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2019-07-24 14:29:40.802  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:29:40.803  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:29:40.927  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:29:40.930  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-07-24 14:29:40.957  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:29:41.062  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:29:41.063  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:29:41.063  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:29:41.098  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:29:41.099  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:29:41.099  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 295 ms
+2019-07-24 14:29:41.128  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2019-07-24 14:29:41.148  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-12 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:29:41.149  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2019-07-24 14:29:41.155  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:29:41.165  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:29:41.171  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:29:41.171  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:29:41.171  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:29:41.172  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:29:41.193  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:29:41.255  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:29:41.262  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:29:41.338  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:29:41.361  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:29:41.362  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.576 seconds (JVM running for 1634.587)
+2019-07-24 14:29:41.364  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:29:42.512  INFO 6556 --- [http-nio-8086-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:29:42.513  INFO 6556 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:29:42.516  INFO 6556 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-07-24 14:29:42.532  INFO 6556 --- [http-nio-8086-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 14:30:23.335  INFO 6556 --- [Thread-90] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:30:23.336  INFO 6556 --- [Thread-90] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:30:23.336  INFO 6556 --- [Thread-90] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2019-07-24 14:30:23.363  INFO 6556 --- [Thread-90] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2019-07-24 14:30:23.554  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:30:23.554  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:30:23.689  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:30:23.692  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-07-24 14:30:23.720  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:30:23.826  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:30:23.827  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:30:23.827  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:30:23.862  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:30:23.863  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:30:23.863  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 308 ms
+2019-07-24 14:30:23.895  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2019-07-24 14:30:23.915  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-13 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:30:23.917  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2019-07-24 14:30:23.923  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:30:23.931  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:30:23.937  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:30:23.938  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:30:23.938  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:30:23.938  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:30:23.974  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:30:24.087  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:30:24.093  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:30:24.196  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:30:24.218  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:30:24.219  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.685 seconds (JVM running for 1677.44)
+2019-07-24 14:30:24.222  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:30:33.764  INFO 6556 --- [Thread-98] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:30:33.767  INFO 6556 --- [Thread-98] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:30:33.768  INFO 6556 --- [Thread-98] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2019-07-24 14:30:33.823  INFO 6556 --- [Thread-98] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2019-07-24 14:30:33.955  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:30:33.956  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:30:34.074  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:30:34.077  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-07-24 14:30:34.103  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:30:34.206  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:30:34.207  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:30:34.207  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:30:34.241  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:30:34.242  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:30:34.242  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 285 ms
+2019-07-24 14:30:34.271  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2019-07-24 14:30:34.292  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-14 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:30:34.293  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2019-07-24 14:30:34.298  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:30:34.305  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:30:34.311  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:30:34.311  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:30:34.311  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:30:34.311  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:30:34.334  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:30:34.387  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:30:34.391  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:30:34.464  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:30:34.484  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:30:34.484  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.544 seconds (JVM running for 1687.704)
+2019-07-24 14:30:34.486  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:30:48.069  INFO 6556 --- [Thread-105] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:30:48.071  INFO 6556 --- [Thread-105] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:30:48.072  INFO 6556 --- [Thread-105] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2019-07-24 14:30:48.143  INFO 6556 --- [Thread-105] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2019-07-24 14:30:48.364  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 14:30:48.365  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 14:30:48.527  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 14:30:48.529  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-07-24 14:30:48.555  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 14:30:48.656  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 14:30:48.656  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 14:30:48.656  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 14:30:48.689  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 14:30:48.689  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 14:30:48.690  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 323 ms
+2019-07-24 14:30:48.718  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2019-07-24 14:30:48.738  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-15 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 14:30:48.740  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2019-07-24 14:30:48.744  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 14:30:48.751  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 14:30:48.757  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:30:48.757  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 14:30:48.757  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:30:48.757  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 14:30:48.779  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 14:30:48.832  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 14:30:48.836  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 14:30:48.902  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 14:30:48.923  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 14:30:48.923  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 0.585 seconds (JVM running for 1702.141)
+2019-07-24 14:30:48.925  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 14:34:19.260  INFO 6556 --- [http-nio-8086-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 14:34:19.262  INFO 6556 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-24 14:34:19.266  INFO 6556 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-07-24 14:34:19.275  INFO 6556 --- [http-nio-8086-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 19:04:35.976  INFO 6556 --- [Thread-112] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 19:04:36.184  INFO 6556 --- [Thread-112] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 19:04:36.185  INFO 6556 --- [Thread-112] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2019-07-24 19:04:36.487  INFO 6556 --- [Thread-112] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2019-07-24 19:04:39.018  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Starting OhmsApplication on DIN13002304A with PID 6556 (D:\ramarao_workspace\ohms-spring-boot-1\target\classes started by trainee in D:\ramarao_workspace\ohms-spring-boot-1)
+2019-07-24 19:04:39.019  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : No active profile set, falling back to default profiles: default
+2019-07-24 19:04:41.537  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 19:04:41.540  INFO 6556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-24 19:04:41.585  INFO 6556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$334856ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 19:04:43.930  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2019-07-24 19:04:43.930  INFO 6556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 19:04:43.930  INFO 6556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 19:04:44.433  INFO 6556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-24 19:04:44.434  INFO 6556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 19:04:44.435  INFO 6556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5410 ms
+2019-07-24 19:04:44.474  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2019-07-24 19:04:44.596  INFO 6556 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-16 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-24 19:04:44.614  INFO 6556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2019-07-24 19:04:44.643  INFO 6556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 19:04:44.660  INFO 6556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-24 19:04:45.496  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 19:04:45.497  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@29963995
+2019-07-24 19:04:45.497  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 19:04:45.497  INFO 6556 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a172d59
+2019-07-24 19:04:45.533  INFO 6556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 19:04:45.624  INFO 6556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 19:04:45.630  WARN 6556 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 19:04:46.206  INFO 6556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-24 19:04:46.228  INFO 6556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2019-07-24 19:04:46.228  INFO 6556 --- [restartedMain] com.cg.ohms.OhmsApplication              : Started OhmsApplication in 7.833 seconds (JVM running for 18138.439)
+2019-07-24 19:04:46.230  INFO 6556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-24 19:05:32.440  INFO 6556 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-24 19:05:32.442  INFO 6556 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-24 19:05:32.442  INFO 6556 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-24 19:05:32.442  INFO 6556 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2019-07-24 19:05:32.793  INFO 6556 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.

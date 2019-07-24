@@ -1,17 +1,19 @@
 package com.cg.ohms.dto;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Pattern;
 
 @Entity
 @Table(name = "hoteldetails")
@@ -24,22 +26,29 @@ public class HotelDetailsDTO implements Serializable {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "HOTELID")
 	@SequenceGenerator(name = "HOTELID", sequenceName = "HOTELID")
 	@Column(name = "hotelid" ,unique = true, nullable = false)
-//	@Min(5)
 	private int hotelId;
 
 	@Column(name = "hotelname")
-
-	@NotEmpty(message = "Please provide hotel name")
 	private String hotelName;
 
 	@Column(name = "hoteladdress")
-
-//	@NotEmpty(message = "Please provide hotel address")
 	private String hotelAddress;
 
 	@Column(name = "numberofrooms")
-//	@NotEmpty(message = "Please provide number of rooms for hotel")
 	private int numOfRooms;
+	
+	@OneToMany(mappedBy = "hotelDetailsDTO")
+	private List<RoomDetailsDTO> roomDTO=new ArrayList<RoomDetailsDTO>();
+
+	
+
+	public List<RoomDetailsDTO> getRoomDTO() {
+		return roomDTO;
+	}
+
+	public void setRoomDTO(List<RoomDetailsDTO> roomDTO) {
+		this.roomDTO = roomDTO;
+	}
 
 	public HotelDetailsDTO() {
 
@@ -53,7 +62,6 @@ public class HotelDetailsDTO implements Serializable {
 		this.numOfRooms = numOfRooms;
 	}
 
-	@Pattern(regexp = "[a-z-A-Z]*", message = "Hotelname has invalid characters")
 	public int getHotelId() {
 		return hotelId;
 	}

@@ -1,7 +1,10 @@
 package com.cg.ohms.dao;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,6 +18,16 @@ public class HotelDetailsDaoImpl implements IHotelDetailsDao {
 	boolean check = false;
 	@PersistenceContext
 	private EntityManager entityManager;
+	 
+	public List<Object[]> checkAcRooms() throws HotelException {
+		
+		TypedQuery<Object[]> query= entityManager.createQuery(
+				"select h.hotelName,count(r.roomId) from HotelDetailsDTO h join RoomDetailsDTO r on h.hotelId=r.hotelDetailsDTO.hotelId where r.roomType='acroom' group by h.hotelName ",Object[].class);
+				List<Object[]> results=query.getResultList();
+				return results;
+		
+    } 
+
 
 	public boolean addDetails(HotelDetailsDTO hotelDetailsDTO) throws HotelException{
 		entityManager.persist(hotelDetailsDTO);
@@ -25,7 +38,7 @@ public class HotelDetailsDaoImpl implements IHotelDetailsDao {
 
 		return entityManager.find(HotelDetailsDTO.class, hotelDetailsDTO.getHotelId());
 	}
-
+	
 	public boolean modifyName(HotelDetailsDTO hotelDetailsDTO)throws HotelException {
 		int hotelId = hotelDetailsDTO.getHotelId();
 		String hotelName = hotelDetailsDTO.getHotelName();

@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HotelExceptionController {
 
 	@ExceptionHandler(HotelException.class)
-	@ResponseStatus(value = HttpStatus.NOT_FOUND)
+//	@ResponseStatus(value = HttpStatus.NOT_FOUND)
 	public @ResponseBody ErrorResponse handleResourceNotFound( HotelException exception,
 			 HttpServletRequest request) {
 
